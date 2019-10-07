@@ -32,7 +32,7 @@
         (Access the web site.)
 
 #### 시연(Practice)
-1. 190830 Jasper Counter with Java, https://youtu.be/cFKAInIbuXw, Accessed by 2019-10-07, Last Modified 2019-10-07
+1. 191002 Jasper Counter with Java, https://youtu.be/cFKAInIbuXw, Accessed by 2019-10-07, Last Modified 2019-10-07
 2. 191007 JasperFood System, https://youtu.be/z28VYSIKFAw, Accessed by 2019-10-07, Last Modified 2019-10-07
 
 #### 참고(Reference)
