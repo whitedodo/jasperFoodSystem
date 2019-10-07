@@ -40,3 +40,8 @@
 
 #### 라이선스(License)
 1. PHP License, https://opensource.org/licenses/PHP-3.0
+2. OpenJDK: GPLv2 + Classpath Exception, Accessed by 2019-10-07, https://openjdk.java.net/legal/gplv2+ce.html
+
+#### 참고자료(Reference)
+1. OpenJDK, Accessed by 2019-10-07, https://openjdk.java.net
+2. Java API Specifications, Accessed by 2019-10-07, https://www.oracle.com/technetwork/java/api-141528.html
