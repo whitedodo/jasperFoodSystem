@@ -1,0 +1,7 @@
+mysql
+com.mysql.jdbc.Driver
+localhost
+3306
+rabbit2me
+rabbit2me
+1234
