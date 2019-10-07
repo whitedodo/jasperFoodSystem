@@ -3,7 +3,7 @@
 
 #### 작성자 소개(About the author)
 > ##### 1. Dodo (rabbit.white@daum.net)
-> ##### 2. Created by: 2018-08-18
+> ##### 2. Created by: 2019-10-07
 > ##### 3. Description: 
 > ##### 4. License: GNU v3 License.
 
