@@ -4,13 +4,13 @@
  * Created Date: 2019-09-03
  * Author: Dodo (rabbit.white@daum.net)
  * Description:
- * 19-09-04 / Dodo / MySQL(MariaDB) UTF8 Áö¿ø(ÇÑ±Û ±úÁü °³¼±)
+ * 19-09-04 / Dodo / MySQL(MariaDB) UTF8 ì§€ì›(í•œê¸€ ê¹¨ì§ ê°œì„ )
  * 
  * Reference:
  * https://downloads.mariadb.com/Connectors/java/connector-java-2.4.2/
  * https://dev.mysql.com/downloads/connector/j/ (2019-09-03)
  * http://mysql.mirror.kangaroot.net/Downloads/Connector-J/ (2019-09-03)
- * => mariadb-java-client-2.4.2.jar »ç¿ëÇÒ °Í
+ * => mariadb-java-client-2.4.2.jar ì‚¬ìš©í•  ê²ƒ
  */
 
 package com.counter.application.database;
@@ -29,7 +29,7 @@ public class MariaConnector {
 
 	private static Connection conn = null;
 	
-	/* È¯°æ¼³Á¤ */
+	/* í™˜ê²½ì„¤ì • */
 	private String dbms;
 	private String driver;
 	private String uHostName;
@@ -53,13 +53,13 @@ public class MariaConnector {
 			//conn.close();
 			
 			if( conn != null ) {
-                System.out.println("DB Á¢¼Ó ¼º°ø");
+                System.out.println("DB ì ‘ì† ì„±ê³µ");
             }
             
         } catch (ClassNotFoundException e) { 
-            System.out.println("µå¶óÀÌ¹ö ·Îµå ½ÇÆĞ");
+            System.out.println("ë“œë¼ì´ë²„ ë¡œë“œ ì‹¤íŒ¨");
         } catch (SQLException e) {
-            System.out.println("DB Á¢¼Ó ½ÇÆĞ");
+            System.out.println("DB ì ‘ì† ì‹¤íŒ¨");
             e.printStackTrace();
         }		
 		
@@ -83,14 +83,14 @@ public class MariaConnector {
 		
 
 		int index = 1;
-		// ÇöÀç °æ·Î
+		// í˜„ì¬ ê²½ë¡œ
 		String currentDir = System.getProperty("user.dir");
-		// ÆÄÀÏ °´Ã¼ »ı¼º
-		File file = new File(currentDir + "\\serverinfo.txt");
+		// íŒŒì¼ ê°ì²´ ìƒì„±
+		File file = new File(currentDir + "//serverinfo.txt");
 		try {
-			// ÀÔ·Â ½ºÆ®¸² »ı¼º
+			// ì…ë ¥ ìŠ¤íŠ¸ë¦¼ ìƒì„±
 			FileReader fileReader = new FileReader(file);
-			// ÀÔ·Â ¹öÆÛ
+			// ì…ë ¥ ë²„í¼
 			BufferedReader bufReader = new BufferedReader(fileReader);
 			String line = "";
 			
@@ -133,7 +133,7 @@ public class MariaConnector {
 				index++;
 			}
 			
-			// ¹ö±× °³¼±
+			// ë²„ê·¸ ê°œì„ 
 			if ( dbms.contains("maria") ){
 				url = "jdbc:mariadb://" + uHostName + ":" + port + "/" + uDBName + "?useUnicode=true&characterEncoding=utf8";
 			}
