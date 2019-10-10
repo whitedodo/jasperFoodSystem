@@ -34,8 +34,10 @@
 #### 시연(Practice)
 1. 191002 Jasper Counter with Java, Accessed by 2019-10-07, Last Modified 2019-10-07, https://youtu.be/cFKAInIbuXw
 2. 191007 JasperFood System, Accessed by 2019-10-07, Last Modified 2019-10-07, https://youtu.be/z28VYSIKFAw
-3. 191009 JasperFood System with Java(Linux), Accessed by 2019-10-09, Last Modified 2019-10-09, https://youtu.be/tC9RCOdXSww
+3. 191009 JasperFood System with Java(Linux) 1, Accessed by 2019-10-09, Last Modified 2019-10-09, https://youtu.be/tC9RCOdXSww
 4. 191009 JasperFood System with Java(Windows Tablet), Accessed by 2019-10-09, Last Modified 2019-10-09, https://youtu.be/b2T88k_ZGAQ
+5. 191010 jasperFood Linux - 2 , Accessed by 2019-10-10, Last Modified 2019-10-10, https://youtu.be/INVrhBswfnM
+
 
 #### 참고(Reference)
 1. PHP.net, http://php.net/docs.php, Last Modified, Accessed By (Ing.)
