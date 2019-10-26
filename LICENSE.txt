@@ -1,4 +1,4 @@
-Jasper Food System Copyright (C) 2018 Dodo(rabbit.white@daum.net)
+Copyright (C) 2018 Dodo(rabbit.white@daum.net)
 
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
